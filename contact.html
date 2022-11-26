@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <!-- <div class="mainContainer"> -->
+        <!-- <div class="schoolName"> <section id="home">YOUNG STARS ELEMENTARY SCHOOL</div><i>  -->
+        <!-- <div class="header"> -->
+            <div id="navbar">
+                <a class="active" href="youngstar.html">HOME</a> &nbsp;&nbsp;
+                <a href="youngstar.html">ABOUT US</a> &nbsp;&nbsp;
+                <a href="youngstar.html">OUR TEAM</a> &nbsp;&nbsp;
+                <a href="youngstar.html">ACADEMIC PROGRAMS</a> &nbsp;&nbsp;
+                <a href="youngstar.html">ADMISSIONS</a> &nbsp;&nbsp;
+                <a href="youngstar.html">ACADEMICS</a> &nbsp;&nbsp;
+                <a href="youngstar.html">CONTACT</a> &nbsp;&nbsp;
+            </div>
+        <!-- </div> -->
+        <hr>
+        <div class="contactForm">
+            <h3>CONTACT US</h3>
+            <form action="process-form.php" method="post">
+                <label for="name">Name</label> <br>
+                <input type="text" id="name" name="name"> <br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="50" rows="2"></textarea><br>
+                <label for="priority">priority</label>
+                <select name="priority" id="priority" name="priority">
+                    <option value="1">Low</option>
+                    <option value="2" selected>Medium</option>
+                    <option value="3">High</option>
+                </select> 
+                <fieldset>
+                    <legend>type</legend>  
+                    <label for="">
+                        <input type="radio" name="type" value="1" checked>
+                        Complaint
+                    </label> <br>
+                    <label for="">
+                        <input type="radio" name="type" value="2">
+                        suggestion
+                    </label>
+               </fieldset>
+               <label for="">
+                <input type="checkbox" name="terms">
+                I agree to the terms and conditions
+               </label> <br>
+               <button>Send</button>
+            </form>
+        </div> 
+    </div>
+    
+</body>
+</html>

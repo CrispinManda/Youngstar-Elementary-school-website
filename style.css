@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.schoolName{
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+   
+}
+.schoolName a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    opacity: 0.3;
+}
+
+body{
+    background-color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+ .mainContainer{
+    background-color: white;
+}
+#navbar {
+  overflow: hidden;
+  background-color: rgb(253, 246, 246);
+  box-shadow: 3px 5px 11px gray;
+  position: -webkit-sticky;
+  top: 0;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: black;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #df2525;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+
+.sticky + .div {
+  padding-top: 60px;
+}
+.content{
+    height: 550px;
+    width: 100%;
+    /* position: relative; */
+  }
+  .content .images{
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+  }
+  .content .images img{
+    
+    height: 100%;
+    width: 100%;
+  }
+  .btm-slides{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .btm-slides span{
+    height: 15px;
+    width: 50px;
+    border: 2px solid white;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+  .sliders{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    cursor: pointer;
+    border: 10px solid rgb(105, 45, 105);
+    background: rgba(255,255,255,0.1);
+
+
+
+
+  }
+  .sliders:hover{
+    background: rgba(255,255,255,0.2); 
+  }
+  .right{
+    right: 0;
+  }
+  .sliders span{
+    line-height: 41px;
+    font-size: 35px;
+    color: white; 
+  }
+  
+
+
+.schoolEvents{
+    background-color: rgb(253, 246, 246);
+    height: 130px;
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-left: 1px;
+    width:25% ;
+    
+}
+.schoolEvents image img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.wrapper{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+.info{
+  border-radius: 10px;
+  box-shadow: 0 7px 7px gray;
+  margin: 40px 20px;
+  overflow: hidden ;
+}
+.info h3{
+  font-size: 40px;
+  text-align: center;
+  background-image: linear-gradient(to right,#FC575E,#90D5EC);
+  color: white;
+  line-height: 70px;
+
+}
+.header{
+  margin: 0;
+  position: fixed;
+}
+.header1 h3{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  line-height: 70px;
+  background-color: #3EADCF;
+}
+.header1 p{
+  padding-left: 30px;
+}
+.header1{
+  padding: 50px;
+}
+#btn{
+  font-size: 16 px;
+  background-color: #90D5EC;
+  color: black;
+  padding: 10px 15px;
+  margin: 20px;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 3px 5px 11px gray;
+  float: right;
+
+}
+#btns{
+  font-size: 16 px;
+  background-color: #90D5EC;
+  color: black;
+  padding: 10px 15px;
+  margin: 20px;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 3px 5px 11px gray;
+  float: right;
+
+}
+#btns:hover{
+  box-shadow: 3px 5px 11px black;
+
+}
+#btn:hover{
+  box-shadow: 3px 5px 11px black;
+
+}
+#btn3:hover{
+  box-shadow: 3px 5px 11px black;
+
+}
+#invisibleText{
+  display: none;
+}
+#invisibleText2{
+  display: none;
+}
+#invisibleText3{
+  display: none;
+}
+#btn3{
+  font-size: 16 px;
+  background-color: #90D5EC;
+  color: black;
+  padding: 10px 15px;
+  margin: 20px;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 3px 5px 11px gray;
+  float: right;
+
+}
+#btn4{
+  font-size: 16 px;
+  background-color:  #90D5EC;
+  color: black;
+  padding: 10px 15px;
+  margin: 20px;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 3px 5px 11px gray;
+  float: right;
+
+}
+    
+.fot1{
+  background-color: black;
+  height: 300px;
+}
+.fot2{
+  background-color: blue;
+  height: 300px;
+}
+.fot3{
+  background-color: aqua;
+  height: 300px;
+}
+.fotcontainer{
+  display: flex;
+}
+.fotcontainer > div {
+  background-color:   rgb(253, 246, 246);
+  /* margin: 10px; */
+  padding: 20px;
+  /* font-size: 30px; */
+  height: 50%;
+  width: 100%;
+  }
+  .imgCont{
+    background-color:#90D5EC;
+    margin: 20px 10px;
+  }
+  .imgCont h2{
+    display: flex;
+    justify-content: center;
+  }
+.wrappers1{
+  display: flex;
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+.information h3{
+  display: flex;
+  justify-content: center;
+}
+
+.wrappers1 p{
+  margin: 10px;
+
+}
+
+hr{
+  border-top: 2px solid #df2525;
+  width: 40%;
+}
+.footer2{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+.footer2 p{
+  color: white;
+  margin: 10px ;
+
+}
+#footbBtn{
+  background-color: #90D5EC;
+  height: 40px;
+  width: 150px;
+  border: #90D5EC;
+  border-radius: 10px;
+  color: white;
+}
+#log{
+  text-decoration: none;
+  background-color: brown;
+  height: 40px;
+  width: 150px;
+  color: white;
+}
+
+
+  
+  
+
+  
